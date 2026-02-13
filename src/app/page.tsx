@@ -6,11 +6,10 @@ import PhotoPairGame from "../components/PhotoPairGame";
 import ValentinesProposal from "@/components/ValentinesProposal";
 import TextFooter from "@/components/TextFooter";
 import OrientationGuard from "@/components/OrientationGuard";
-
 const ANIM_DURATION = 2;
 
 export default function Home() {
-  const [showValentinesProposal, setShowValentinesProposal] = useState(false);
+  const [showValentinesProposal, setShowValentinesProposal] = useState(true);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   const handleShowProposal = () => {
@@ -46,5 +45,6 @@ export default function Home() {
         )}
       </main>
     </OrientationGuard>
+    
   );
 }
