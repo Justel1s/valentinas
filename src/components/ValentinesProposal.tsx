@@ -143,7 +143,7 @@ export default function ValentinesProposal() {
                 onMouseEnter={() => setPosition(getRandomPosition())}
                 onClick={() => setPosition(getRandomPosition())}
               >
-                Nope 😢
+                Nope 😢 (tik pabandai)
               </button>
             </div>
           </motion.div>
@@ -175,13 +175,13 @@ export default function ValentinesProposal() {
           >
             Wooohooo! Myliu tave be galo iki pat širdies gilumų 💕
             <a
-              href="https://open.spotify.com/playlist/4zhd7UMPnAfqRnVCRsaVnO?si=7a303dafb3404ed5&pt=2434a008f38830271f416f09e99fea9b"
+              href="https://open.spotify.com/playlist/4zhd7UMPnAfqRnVCRsaVnO?si=d7e272d5ab67491a&pt=b345140dc6cfcfbdf180b2ff0d0bd01f"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-block"
             >
               <button className="px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 transition relative z-50 pointer-events-auto">
-                Atidaryti grojaraštį
+                Atidaryk mane
               </button>
             </a>
             <Image
